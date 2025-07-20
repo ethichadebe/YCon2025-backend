@@ -11,6 +11,6 @@ exports.registerUser = (req, res) => {
       console.error('❌ SQL Error:', err) // ✅ log error reason
       return res.status(500).json({ message: 'Database Error', error: err.message })
     }
-    return res.status(201).json({ message: 'Registration Successful' })
+    return res.status(201).json({ message: 'Registration Successfull' })
   })
 }
